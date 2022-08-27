@@ -3,7 +3,7 @@
 // 1 4 7 2
 // 5 9 2 3
 // 8 4 2 4
-// 17 -> такого числа в массиве нет (Пример не соответствует заданию)
+// 17 -> такого числа в массиве нет (!Пример не соответствует заданию!)
 
 Console.Clear();
 int[,] array = new int[4, 3];
@@ -24,9 +24,9 @@ for (int i = 0; i < array.GetLength(0); i++)
 }
 Console.Write("Введите позицию элемента массива, а я выведу ее на экран");
 Console.WriteLine();
-Console.Write("Введите строку массива: ");
+Console.Write("Введите строку массива (отсчет с 0): ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите столбец массива: ");
+Console.Write("Введите столбец массива (отсчет с 0): ");
 int n = Convert.ToInt32(Console.ReadLine());
 if (m >= array.GetLength(0) || n >= array.GetLength(1))
 {
