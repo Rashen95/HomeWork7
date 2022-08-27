@@ -5,7 +5,9 @@
 // 8 7,8 -7,1 9
 
 Console.Clear();
-double[,] array = new double[3, 4];
+int m = 3;
+int n = 4;
+double[,] array = new double[m, n];
 for (int i = 0; i < array.GetLength(0); i++)
 {
     for (int j = 0; j < array.GetLength(1); j++)
