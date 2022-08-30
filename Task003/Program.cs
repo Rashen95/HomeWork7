@@ -54,7 +54,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.Write("Количество столбцов: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
-int[,] array = NewArray(m, n);
+int[,] array = NewArray(n, m);
 Console.WriteLine("Полученный массив");
 ShowArray(array);
 Console.WriteLine();
